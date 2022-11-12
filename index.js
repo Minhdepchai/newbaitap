@@ -35,3 +35,20 @@ while (x <= n ) {
  
    document.getElementById ('result').innerHTML=result
  }
+
+
+ document.getElementById ('ketQua').onclick=function () {
+var number=  number (document.getElementById ('nhapSo').value);
+var ketQua = " ";
+var checkSNT = true;
+var soHang = 2;
+ while (soHang<=Math.sqrt(number)) {
+   if (number% soHang ===0){
+      checkSNT = false
+   }
+ }
+ if (checkSNT === true) {
+   
+ }
+
+ }
